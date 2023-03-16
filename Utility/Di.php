@@ -17,7 +17,7 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
-App::uses('Object', 'Core');
+App::uses('CakeObject', 'Core');
 
 /**
  * Dependency Injection Container
@@ -26,7 +26,7 @@ App::uses('Object', 'Core');
  *
  * @package       Dependency.Utility
  */
-abstract class Di extends Object {
+abstract class Di extends CakeObject {
 
 /**
  * The global container scope.
